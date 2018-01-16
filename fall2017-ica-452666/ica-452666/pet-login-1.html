@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+    <head>
+    <meta charset="utf-8"/>
+    <title>Pet Login</title>
+   <link rel="stylesheet" type="text/css" href="pet-style.css" />
+     </style>
+</head>
+    <div id="welcome3">
+
+    <p id=welcomewords3>Add new pet!</p>
+
+    </div>
+    <div class="loginpart">
+        <!-- input the username and password-->
+        <form name = "login" action="pet-login-check.php" method="POST">
+            <label>Username:<input type="text" name="username" placeholder = "input username here" required></label>
+            <label>Password:<input type="text" name="password" placeholder = "input username here" required></label><br>
+            
+            <br>
+            <input type="submit" name="submit" value="Login">
+            <br>
+            <br>
+            </form>
+            <br>
+            <!-- input the new username and password-->
+            <form action="pet-login-register.php" method="POST">
+            <label>Creat User:<input type="text" name="username" placeholder="input new username" required></label>
+            <label>Password:<input type="text" name="password" placeholder = "input username here" required></label><br>
+            <br>
+            <input type="submit" name="submit" value="Creat">
+        
+        </form>
+        <br>
+        <br>
+
+
+        
+    <div>
+        <blockquote>Please put your Username Above! <br>
+        
+        </blockquote>
+    </div>
+ 
+    
+</body>
+</html>
